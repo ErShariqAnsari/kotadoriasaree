@@ -1,0 +1,30 @@
+
+$potrate: 576px;
+$tablate: 768px;
+$medium: 992px;
+$large: 1200px;
+
+@for $i from 1 to 40 {  
+  .f-#{$i*2} { font-size : $i * 2px; }  
+} 
+
+@media(min-width:$tablate){
+@for $i from 1 to 40 {  
+	.f-sm#{$i*2} { font-size : $i * 2px; } 
+}
+}
+
+@media(min-width:$medium){
+@for $i from 1 to 40 {  
+	.f-md#{$i*2} { font-size : $i * 2px; } 
+}
+}
+
+@media(min-width:$large){
+@for $i from 1 to 40 {  
+	.f-lg#{$i*2} { font-size : $i * 2px; } 
+}
+}
+
+
+ 

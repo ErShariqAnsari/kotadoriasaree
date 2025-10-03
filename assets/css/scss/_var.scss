@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap');
+
+$font-family: 'Nunito';
+$primary-clr : rgba(254, 95, 85, 1);
+$primary-clr-shade1 : rgba(254, 95, 85, 0.95);
+$secondary-clr : #bfb8da;
+$theme-clr1 : #FE5F55;
+$theme-clr2 : #bfb8da;
+$grey: #797687;
+$light_clr1 : #f8f8f8;
+$nav_link : #212121;
+$clr2:#FE5F55;
+$black-clr: #000000;
+$seal-brown-clr: #471818;
+$white_clr: #ffffff;
+$hrclr: #eeeeee;
+$subscribebg_clr: #f8f8f8;
+$icon-height1: 100px;
+$icon-height2: 200px;
+
+//Gradient
+@mixin gradient($direction1, $direction2, $gclr1, $gclr2){
+	background: $gclr1;
+	background: -moz-linear-gradient($direction1,  $gclr1 0%, $gclr2 100%);
+	background: -webkit-linear-gradient($direction1,  $gclr1 0%,$gclr2 100%);
+	background: linear-gradient(to $direction2,  $gclr1 0%,$gclr2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$gclr1', endColorstr='$gclr2',GradientType=0 );
+}
+
+
+$kds-container-width: 1300px;
+
+// Dropdown Variables
+$drop-br: 0;
+$dropbg: #ffffff;
+$dropsub-hvr-clr: #fe5f55;
+
+//Height
+$w-100: 100%;
+$h-100: 100%;
+$m-a:auto;
+$min-h:100vh;
+
+//Screen Size
+$mobile: 240px;
+$tablate: 768px;
+$medium-md: 1200px;
+$large-lg: 1349px;
+$large-xl: 1600px;
+
+//Max Screen Size
+$max-w767: 767px;
+$max-w1024: 1024px;
+$min-w1025: 1025px;
+
+//Header and Drop
+$topbar_height:41px;
+$logo_h_h:80px;
+$nav_menu_h:55px;
+$header_hight:$logo_h_h + $nav_menu_h + $topbar_height;
+$dropdown-width: 200px;
+
+//Container
+$kds-container: 1410px;
+
+
+//Typography
+$giant:  70px;  $giant-lineh: 110%;
+$huge :  60px;	$huge-lineh: $giant-lineh * 105 / 100;
+$big  : 50px;	$big-lineh: $giant-lineh * 110 / 100;
+$h1: 40px; $h1-lineh: 120%;
+$h2: $h1 * 80 / 100; $h2-lineh: $h1-lineh * 105 / 100;
+$h3: $h1 * 70 / 100; $h3-lineh: $h1-lineh * 110 / 100;
+$h4: $h1 * 60 / 100; $h4-lineh: $h1-lineh * 115 / 100;
+$h5: $h1 * 50 / 100; $h5-lineh: $h1-lineh * 120 / 100;
+$h6: $h1 * 40 / 100; $h6-lineh: $h1-lineh * 125 / 100;
+$p:  14px; $p-lineh: 160%;
+
+
+
+/************ Mixin ************/
+@mixin anchor-prop(){
+	text-decoration: none;
+	outline: none;
+}
+@mixin box-shadow($hl,$vl,$br,$size,$shadow-clr){
+	-webkit-box-shadow: $hl $vl $br $size $shadow-clr;
+	box-shadow: $hl $vl $br $size $shadow-clr;
+}
+
+@mixin border-radius($tl,$tr,$br,$bl){
+	-webkit-border-radius: $tl $tr $br $bl;
+	border-radius: $tl $tr $br $bl;
+}
+
+@mixin transition($prop,$time,$type){
+	-webkit-transition: $prop $time $type;
+	-moz-transition: $prop $time $type;
+	-ms-transition: $prop $time $type;
+	-o-transition: $prop $time $type;
+	transition: $prop $time $type;
+}
+@mixin alldimenssion($top,$right,$bottom,$right){
+	top: $top;
+	right: $right;
+	bottom: $bottom;
+	left: $right;
+}
+@mixin padding($p-top,$p-right,$p-bottom,$p-right){
+	padding: $p-top $p-right $p-bottom $p-right;
+}
+@mixin margin($m-top,$m-right,$m-bottom,$m-right){
+	padding: $m-top $m-right $m-bottom $m-right;
+}

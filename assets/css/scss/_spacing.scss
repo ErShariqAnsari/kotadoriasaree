@@ -1,0 +1,150 @@
+//Spacing For All Screen
+//Padding
+@for $i from 0 to 11 {  
+  .p-#{$i * 10} { padding: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pt-#{$i * 10} { padding-top: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pr-#{$i * 10} { padding-right: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pb-#{$i * 10} { padding-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pl-#{$i * 10} { padding-left: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .py-#{$i * 10} { padding-top: $i * 10px; padding-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .px-#{$i * 10} { padding-left: $i * 10px; padding-right: $i * 10px; }  
+}
+
+//Margin
+@for $i from 0 to 11 {  
+  .m-#{$i * 10} { margin: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mt-#{$i * 10} { margin-top: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mr-#{$i * 10} { margin-right: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mb-#{$i * 10} { margin-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .ml-#{$i * 10} { margin-left: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .my-#{$i * 10} { margin-top: $i * 10px; margin-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mx-#{$i * 10} { margin-left: $i * 10px; margin-right: $i * 10px; }  
+}
+
+
+//Spacing For tablat Screen
+@media (min-width: $tablate){
+
+//Padding
+@for $i from 0 to 11 {  
+  .p-md#{$i * 10} { padding: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pt-md#{$i * 10} { padding-top: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pr-md#{$i * 10} { padding-right: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pb-md#{$i * 10} { padding-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pl-md#{$i * 10} { padding-left: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .py-md#{$i * 10} { padding-top: $i * 10px; padding-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .px-md#{$i * 10} { padding-left: $i * 10px; padding-right: $i * 10px; }  
+}
+
+//Margin
+@for $i from 0 to 11 {  
+  .m-md#{$i * 10} { margin: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mt-md#{$i * 10} { margin-top: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mr-md#{$i * 10} { margin-right: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mb-md#{$i * 10} { margin-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .ml-md#{$i * 10} { margin-left: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .my-md#{$i * 10} { margin-top: $i * 10px; margin-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mx-md#{$i * 10} { margin-left: $i * 10px; margin-right: $i * 10px; }  
+}
+
+}
+
+
+//Spacing For large Screen
+@media (min-width: $medium-md){
+
+//Padding
+@for $i from 0 to 11 {  
+  .p-xl#{$i * 10} { padding: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pt-xl#{$i * 10} { padding-top: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pr-xl#{$i * 10} { padding-right: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pb-xl#{$i * 10} { padding-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .pl-xl#{$i * 10} { padding-left: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .py-xl#{$i * 10} { padding-top: $i * 10px; padding-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .px-xl#{$i * 10} { padding-left: $i * 10px; padding-right: $i * 10px; }  
+}
+
+//Margin
+@for $i from 0 to 11 {  
+  .m-xl#{$i * 10} { margin: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mt-xl#{$i * 10} { margin-top: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mr-xl#{$i * 10} { margin-right: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mb-xl#{$i * 10} { margin-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .ml-xl#{$i * 10} { margin-left: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .my-xl#{$i * 10} { margin-top: $i * 10px; margin-bottom: $i * 10px; }  
+}
+@for $i from 0 to 11 {  
+  .mx-xl#{$i * 10} { margin-left: $i * 10px; margin-right: $i * 10px; }  
+}
+
+}
